@@ -1,0 +1,48 @@
+body {
+    background-color: #010207!important;
+}
+main > div {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.paddingsection {
+    padding: 60px 147px;
+}
+.fonction {
+    padding-bottom: 36px;
+}
+#desert {
+    width: 100%;
+    padding-top: 36px;
+} 
+
+@media screen and (max-width:576px)
+{
+    main > div {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .paddingsection {
+        padding: 24px 20px;
+    }
+    .fonction {
+        padding-bottom: 24px;
+    }
+    #desert {
+        width: 100%;
+        padding-top: 24px;
+    }
+    #moon {
+        width: 80%;
+        display :flex;
+        flex-direction: column;
+        justify-self: center;
+    }     
+    .logopartenaire {
+        width: 80%;
+    }
+    #partenaire {
+        display: flex;
+        flex-direction: row;
+    }  
+    }

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="stylesheet" href="css/footerstyle.css">
+    <link rel="stylesheet" href="css/navstyle.css">
+    <link rel="stylesheet" href="css/textstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Alpha Leonis - Telescope connecté</title>
+
+     
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a class="navbar-brand" href="home.html"><img id="logo" src="image/logo.png" alt=""></a>
+                <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span id="burgerspan" class="navbar-toggler-icon"></span>
+                </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body container-fluid justify-content-end col-md-12" id="menudesktop">
+                <div class="offcanvas-body container-fluid justify-content-end col-md-6" id="menudesktop">
+                <ul class="navbar-nav align-items-center" >
+                <li class="nav-item">
+                    <a id="lienproduitnav" class="nav-link" aria-current="page" href="#">Produit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="data.html">Dashboard</a>
+                </li>
+                </ul>
+            </div>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="image/icon_notification.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="image/icon_alien.png" alt=""></a>
+                </li>
+                </ul>
+            </div>
+
+            <div class="offcanvas-body container-fluid justify-content-end" id="menumobile">
+              <ul class="navbar-nav align-items-center" >
+              <li class="listetitremobile" class="nav-item">
+                  <a class="menutitremobile" class="nav-link" aria-current="page" href="produit.html">Produit</a>
+              </li>
+              <li class="listetitremobile" class="nav-item">
+                  <a class="menutitremobile" class="nav-link" aria-current="page" href="data.html">Dashboard</a>
+              </li>
+              <li class="listetitremobile" class="nav-item">
+                  <a class="menutitremobile" class="nav-link" href="#">Notifications</a>
+              </li>
+              <li class="listetitremobile" class="nav-item">
+                  <a class="menutitremobile" class="nav-link" href="#">Profil</a>
+              </li>
+              </ul>
+          </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+        <main>
+            <section class="paddingsection" class="container-fluid text-center">
+                <div class="row d-flex align-items-center text-start">
+                    <div id="astronomie" class="col-md-6">
+                    <H1>Une nouvelle ère pour l'astronomie</H1>
+                    <p>Nos telescopes sont dotés de fonctionnalités avancées grâce à la connexion internet et à l'intégration de technologies innovantes.</p>
+                    <button class="primary"><a class="decouvrir" href="product.html" alt="#">Découvrir</a></button>
+                    </div>
+                    <div id="astroimage" class="col-md-6 d-flex justify-content-center">
+                            <video controls autoplay loop width="100%">
+                            <source src="video/galaxie.mp4" type="video/mp4">
+                            This browser does not support HTML video.
+                          </video>
+                    </div>
+                </div>
+            </section>
+            <section id="ciel" class="paddingsection" class="container-fluid">
+                <div class="row text-center">
+                <h2>Observer le ciel</h2>
+                <p>Nos telescopes se distinguent des modèles traditionnels par plusieurs aspects</p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img class="fonction" src="image/features_controle.png" alt="">
+                    <h3 class="h3 vert">Contrôle automatisé</h3>
+                    <p>Monture motorisée et système de pointage automatique, sélection d'un objet céleste depuis l'application.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="fonction" src="image/features_image.png" alt="">
+                        <h3 class="h3 vert">Imagerie améliorée</h3>
+                        <p>Amplificateurs de lumière et caméras ultra sensibles pour capturer des images détaillées du ciel nocturne.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="fonction" src="image/features_assistance.png" alt="">
+                        <h3 class="h3 vert">Aide à l'observation</h3>
+                        <p>Fonctions de recherches d'objets céleste et fourniture d'information contextuelles sur les objets observés.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="paddingsection" class="container-fluid">
+                <div class="col-md-6">
+                    <h2>Alpha Leonis</h2>
+                    <p>Télescope compact et portable qui se connecte à un smartphone pour offrir une expérience d’observation guidée. Il est doté d’une caméra haute sensibilité et d’un système de pointage automatique avec amplificateur de lumière.</p>
+                    <button class="tertiary"><a class="voirplus" href="product.html" alt="#">Voir plus</a></button>
+                </div>
+                    <img id="desert" src="image/Stellina-desert.jpg" alt="">
+            </section>
+            <section class="paddingsection" class="container-fluid d-flex align-items-center">
+                <div class="row">
+                    <div class="col-md-6">
+                    <h2>Accessibilité accrue</h2>
+                    <p>Nos telescopes connectés facilitent l'observation du ciel nocturne pour les débutants et les amateurs. Ils rendent l'expérience plus intuitive et conviviale, réduisant ainsi la courbe d'apprentissage généralement associée à l'astronomie.</p>
+                    <button class="primary"><a class="decouvrir" href="produit.html" alt="#">Découvrir</a></button>
+                    </div>
+                    <div id="imageproduit" class="col-md-6 d-flex justify-content-center">
+                            <img src="image/product_stellina.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="paddingsection" class="container-fluid">
+                <div class="row text-center">
+                <h2>Ils nous soutiennent</h2>
+                <p>Des partenaires tels des explorateurs unis par une quête commune avec qui nous nous associons  pour gravir de nouveaux sommets et repousser les limites du possible.</p>
+                </div>
+            <div id="partenaire" class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-4">
+                        <img class="logopartenaire" src="image/nasa.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="logopartenaire" src="image/spaceX.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="logopartenaire" src="image/ariane.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </section>
+        </main>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </main>
+</body>
+<!-- <footer>
+    <div class="col1">
+        <div class="logo">
+            <img src="image/logo.png">
+        </div>
+        <div class="h3"> Alpha Leonis</div>
+        <div class="rs d-flex flex-row">
+            <div class="rslogo">
+                <img src="image/fb.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/ins.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/twitter.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/printer.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="col2">
+        <ul class="none">
+            <a class="input blanc" href="home.html">Home</a>
+            <a class="input vert" href="#ciel">Features</a>
+            <a class="input vert" href="#partenaire" alt="#">Partenaires</a>
+        </ul>
+    </div>
+
+    <div class="col3">
+        <ul class="none">
+            <a class="input blanc" href="data.html"> Données</a>
+            <a class="input vert" href="data.html"> Températures </a>
+            <a class="input vert" href="data.html"> Pollution </a>
+            <a class="input vert" href="data.html"> Distance </a>
+        </ul>
+    </div>
+
+    <div class="col4">
+        <div class="input blanc"> Actualités </div>
+        <div class="post">
+            <img src="image/asset1.png" class="lune">
+            <div class="input vert"> Calendrier des pleines lunes</div>
+        </div>
+        <div class="post">
+            <img src="image/asset2.png" class="lune">
+            <div class="input vert"> Plan des constellations
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+<footer>
+    <div class="col1">
+        <div class="logo">
+            <img src="image/logo.png">
+        </div>
+        <div class="h3"> Alpha Leonis</div>
+        <div class="rs d-flex flex-row">
+            <div class="rslogo">
+                <img src="image/fb.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/ins.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/twitter.png">
+            </div>
+            <div class="rslogo">
+                <img src="image/printer.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="col2">
+        <ul class="none">
+            <li class="input blanc"><a href="home.html">Home</a><li>
+            <li class="input vert">Features</li>
+            <li class="input vert">Partenaires</li>
+        </ul>
+    </div>
+
+    <div class="col3">
+        <ul class="none">
+            <li class="input blanc"><a href="data.html"> Données</a>
+             </li>
+            <li class="input vert">Températures</li>
+            <li class="input vert">Pollution </li>
+            <li class="input vert"> Distance </li>
+        </ul>
+    </div>
+
+    <div class="col4">
+        <ul class="none">
+        <li class="input blanc"> Actualités </li>
+        <div class="post">
+            <img src="image/asset1.png" class="lune">
+            <li class="input vert"> Calendrier des pleines lunes</li>
+        </div>
+        <div class="post">
+            <img src="image/asset2.png" class="lune">
+            <li class="input vert"> Plan des constellations</li>
+        </div>
+    </ul>
+    </div>
+</footer>
+</html>

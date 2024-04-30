@@ -1,0 +1,54 @@
+nav img{
+    width: 44px;
+}
+#logo {
+    width: 64px;
+    margin-left: 80px;
+}
+#menumobile{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    #menumobile {
+        display: block;
+        font-family: 'orbitron';
+        font-size: 15px;
+        background-color: #F5F3DE;
+    }
+    #menudesktop {
+        display: none;
+    }
+}
+#logo {
+    width: 64px;
+    margin-left: 40px;
+}
+nav {
+    background-color: #010207;
+}
+#burger {
+    margin: 20px;
+    border-color: #A2ECCE !important;
+    border: solid 3px;
+}
+#burgerspan {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgb(162,236,206)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+.offcanvas-header {
+    font-family: 'orbitron';
+    font-size: 15px;
+    background-color: #F5F3DE;
+}
+.offcanvas-title {
+    font-family: 'orbitron';
+    font-size: 15px;
+}
+.menutitremobile {
+    color: #010207 !important;
+    text-decoration: none;
+}
+.listetitremobile {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}

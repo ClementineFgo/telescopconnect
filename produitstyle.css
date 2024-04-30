@@ -1,0 +1,302 @@
+
+/* nav  */
+
+body {
+    background-color: #010207 !important;
+}
+#logo {
+    width: 64px;
+    margin-left: 64px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+nav {
+    background-color: #010207;
+}
+ 
+nav img{
+    width: 44px;
+}
+#menumobile{
+    display: none;
+}
+#menudesktop a{
+    font-family: "Orbitron";
+    font-size: 15px;
+    color : #F5F3DE;
+}
+
+/* main */
+
+main{
+    padding-left: 147px;
+    padding-right: 147px;
+}
+
+.fonction1 {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+.produit1 {
+    width: 556px;
+    height: 30em;
+}
+.topleft {
+    width: 50%;
+}
+.fonctiontext {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.fon1 {
+    width: 552px;
+    height: 494px;
+}
+
+.assistance {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    row-gap: 30px;
+}
+
+.fonction2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10em;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+.produits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 5em;
+    align-items: center;
+    row-gap: 2em;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.photoassis {
+    padding-bottom: 10px;
+}
+
+
+/* footer */
+.input {
+    font-family: "Orbitron";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+footer {
+    background-color: #010207;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.none {
+    list-style-type: none;
+}
+
+/*
+le "div" est important pour ne pas avoir à mettre "!important"
+bootstrap est prioritaire sur les autres styles car il est appelé en dernier
+*/
+
+div.h3 {
+    color: #A2ECCE;
+    font-family: "Orbitron";
+    font-size: 30px;
+}
+.input.blanc {
+    color: #F5F3DE;
+    margin-bottom: 1em;
+}
+.input.vert {
+    color: #A2ECCE;
+    row-gap: 2em;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;   
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.rs {
+    margin-left: -1em;
+    margin-top: -1em;
+}
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+.lune {
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+}
+.col1 {
+    margin-left: 10em;
+    row-gap: 1em;
+}
+.col4 {
+    margin-right: 10em;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+   main {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+/* nav */
+    #menumobile {
+        display: block;
+    }
+    #menudesktop {
+        display: none;
+    }
+
+/* section intro */
+.intro {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.topleft {
+    width: 100%;
+}
+.produit1 {
+    width: 20em;
+    height: 20em;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0px
+}
+
+/* section fonction */
+.fonction1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+}
+.fonction2 {
+    display: flex;
+    flex-direction: column;
+   
+}
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 36px;
+}
+.assistance {
+    width: 100%;
+    row-gap: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.fonctiontext {
+    width: 100%;
+}
+.produits {
+    display: flex;
+    flex-direction: column;
+}
+.produit {
+    padding-bottom: 36px;
+    padding-top: 0px;
+}
+
+
+
+/* footer */
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > div {
+    flex-direction: column;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    align-items: center;
+}
+
+.lune {
+    display: none;
+}
+
+.col1 {
+    margin-left: 0px;
+}
+.col4 {
+    margin-right: 0px;
+}
+.none {
+    padding:0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

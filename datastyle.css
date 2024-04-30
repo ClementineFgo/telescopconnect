@@ -1,0 +1,124 @@
+body {
+    background-color:#010207 !important;
+}
+#dataphoto {
+    width: 100%;
+}
+.paddingsection {
+    padding: 60px 147px;
+}
+.chartline {
+    padding: 60px 0px;
+}
+.inputtagtext {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 36px;
+}
+.tag {
+    background-color: #F5F3DE;
+    border: solid;
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+.tag p {
+    color: #010207;
+    padding: 0;
+    margin: 0;
+    font-family: "Orbitron";
+    color: #010207;
+    size: 15px;
+}
+.tagtext {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.tagtext p {
+    padding: 0;
+    margin: 0;
+}
+#variation {
+    padding: 60px 147px;
+}
+#pollution {
+    padding: 0px 147px;
+}
+#legendpollution {
+    padding: 36px 0px;
+}
+#indicateurspollution {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 36px;
+    column-gap: 36px;
+}
+#distances {
+    padding: 0px 147px;
+}
+#radar {
+    padding: 36px 0px;
+}
+
+@media screen and (max-width: 576px)
+    {
+        .paddingsection {
+            padding: 8px 20px;
+        }
+        .inputtagtext {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        .tag {
+            background-color: #F5F3DE;
+            border: solid;
+            border-radius: 50%;
+            width: 45px !important;
+            height: 45px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin-right: 24px;
+        }
+        .chartline {
+            padding: 12px 0px;
+        }
+        #variation {
+            padding: 8px 20px;
+        }
+        #pollution {
+            padding: 0px 20px;
+        }
+        #legendpollution {
+            padding: 0px 0px;
+        }
+        #indicateurspollution {
+            display: flex;
+            flex-direction: column;
+        }
+        #distances {
+            padding: 0px 20px;
+        }
+        #radar {
+            padding: 8px 0px;
+        }
+        #graphradar {
+            height: 50%;
+        }
+        #graphlumiere {
+            height: 80%;
+        }
+        #graphair{
+            height: 80%;
+        }
+    }
+   
